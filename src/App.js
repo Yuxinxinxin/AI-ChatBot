@@ -6,6 +6,9 @@ function App() {
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
+
+  // test();
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!input.trim()) return;
